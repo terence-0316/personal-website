@@ -32,7 +32,7 @@ export default function HomePage() {
         </ScrollReveal>
 
         {/* 数据卡片 */}
-        <div className="grid grid-cols-3 gap-4 max-w-lg mx-auto mb-16">
+        <div className="grid grid-cols-2 gap-4 max-w-sm mx-auto mb-16">
           {profile.stats.map((stat, i) => (
             <ScrollReveal key={stat.label} delay={0.3 + i * 0.1}>
               <div className="glass py-6 px-3 text-center">

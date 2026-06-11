@@ -1,0 +1,43 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "HZ" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - link "首页" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "关于" [ref=e9] [cursor=pointer]:
+          - /url: /about
+        - link "经历" [ref=e10] [cursor=pointer]:
+          - /url: /experience
+        - link "项目" [ref=e11] [cursor=pointer]:
+          - /url: /projects
+        - link "技能" [ref=e12] [cursor=pointer]:
+          - /url: /skills
+        - link "联系" [ref=e13] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e14]:
+    - generic [ref=e16]:
+      - generic [ref=e19]: 可立即到岗
+      - heading "黄志忠" [level=1] [ref=e21]
+      - paragraph [ref=e23]: 产品运营 · 数据驱动增长
+      - generic [ref=e24]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: 4年
+          - generic [ref=e28]: 实战经验
+        - generic [ref=e30]:
+          - generic [ref=e31]: 过亿
+          - generic [ref=e32]: 产品体量
+      - generic [ref=e34]:
+        - link "关于 →" [ref=e35] [cursor=pointer]:
+          - /url: /about
+        - link "经历 →" [ref=e36] [cursor=pointer]:
+          - /url: /experience
+        - link "项目 →" [ref=e37] [cursor=pointer]:
+          - /url: /projects
+        - link "技能 →" [ref=e38] [cursor=pointer]:
+          - /url: /skills
+        - link "联系 →" [ref=e39] [cursor=pointer]:
+          - /url: /contact
+  - contentinfo [ref=e40]:
+    - generic [ref=e41]: © 2026 黄志忠. All Rights Reserved.

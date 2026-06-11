@@ -32,7 +32,7 @@ export default function CountUp({ end, duration = 2000, suffix = '', prefix = ''
 
   return (
     <span ref={ref} className={className}>
-      {typeof end === 'number' ? `${prefix}${count}${suffix}` : `${prefix}${end}${suffix}`}
+      {typeof end === 'number' ? `${prefix}${count}${suffix}` : `${end ?? ''}`}
     </span>
   )
 }
